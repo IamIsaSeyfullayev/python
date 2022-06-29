@@ -1,4 +1,4 @@
-python macchanger
+python mac changer
 terminal code:
 
 ifconfig eth0 down
@@ -44,3 +44,13 @@ if finalized_mac == user_input.mac_address:
     print("Success")
 else:
     print("Error!")
+
+
+
+output                                                                                              
+┌──(root㉿kali)-[~/PycharmProjects/MyMACChanger]
+└─# python my_mac_changer.py -i eth0 -m 00:49:40:44:44:44 
+
+MyMACChanger started
+Success
+         
